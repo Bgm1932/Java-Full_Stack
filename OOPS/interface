@@ -1,0 +1,30 @@
+interface Smartphone
+{
+    void camera();
+    void touchpad();
+    void chargertype();
+}
+class Sm implements Smartphone {
+    public void camera() {
+        System.out.println("The camera activated.");
+    }
+
+    public void touchpad() {
+        System.out.println("The touchpad  activated.");
+    }
+
+    public void chargertype() {
+        System.out.println("The charger type is USB-C.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Sm s1 = new Sm();
+        s1.camera();
+        s1.touchpad();
+        s1.chargertype();
+    }
+}
+
+
