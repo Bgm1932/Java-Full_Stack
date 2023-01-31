@@ -1,3 +1,8 @@
+//Interface-Blueprint of class
+//abstract-extends
+//interface-implements
+
+//interface will be taken default it is based on data encapsulation that's why adding "public" in class
 interface Smartphone
 {
     void camera();
